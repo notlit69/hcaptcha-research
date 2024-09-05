@@ -33,4 +33,3 @@ class hCaptcha:
         
         result = cipher_text + tag + nonce + b"\x00"
         return base64.b64encode(result).decode()
-# a
